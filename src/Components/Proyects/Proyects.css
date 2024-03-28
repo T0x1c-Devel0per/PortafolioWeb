@@ -1,0 +1,58 @@
+.projects-container {
+
+    background-color: #140114;
+    height: 100%;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+.project-container > h1 {
+    font-size: 6.5vh;
+    color: #fff3f3;
+    text-shadow: -4px 2px 0px #755bb1;
+}
+
+.project-button{
+    margin-top: 0.5vh;
+    border: none;
+    width: 100%;
+}
+
+.project-cont {
+    height: 98%;
+    border: 2.5px solid black;
+    padding: 2vh;
+    border-radius: 5px;
+    margin-top: 2vh;
+    background-color: #03011a;
+    >h1 {
+        color: #fff3f3;
+        font-size: 2vh;
+    }
+}
+.project-cont{
+    
+    p {
+        color: #fff3f3;
+    }
+    h4 {
+        color: #fff3f3;
+        text-shadow: -2.5px 1.5px 0px #755bb1;
+    }
+}
+
+.preview-project {
+    display: flex;
+    align-items: center;
+    padding: 2vh;
+    margin-bottom: 5vh;
+    background-size: cover;
+    height: 27.5vh;
+    border: 1px solid white;
+    border-radius: 5px;    
+}
+.one-project{
+    background-image: url('/src/assets/FacturacionClientes.png');
+}
+.two-project{
+    background-image: url('/src/assets/SlackPhoto.png');
+}

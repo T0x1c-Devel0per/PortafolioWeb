@@ -1,0 +1,98 @@
+
+#previewId{
+  overflow: hidden;
+}
+.full-container {
+  overflow: hidden;
+}
+
+.preview-container {
+  overflow: hidden;
+  position: relative;
+  z-index: 999;
+  height: 100vh;
+  padding-top: 15vh;
+}
+
+.background-cont {
+  z-index: 1;
+}
+
+.buttons-cont a {
+  margin-left: 2vh;
+}
+
+.buttons-cont a button {
+  width: 10vh;
+  border-radius: 5px;
+  border: 2.5px solid black;
+  background-color: white;
+}
+
+.buttons-cont a button svg {
+  color: rgb(0, 0, 0);
+  font-size: 5vh;
+}
+
+.buttons-cont a button:hover {
+  background-color: #7a70ff;
+}
+
+.tex-section {
+  width: 100%;
+}
+
+.tex-section h1 {
+  color: #fff3f3;
+  text-shadow: -4px 2px 0px #7a70ff, -8px 4px 0px #124ea8;
+  font-size: 12vh;
+}
+
+.tex-section p {
+  color: #fff3f3;
+  font-size: 2.5vh;
+}
+
+.tex-section p span {
+  position: relative;
+  color: #7a70ff;
+}
+
+
+.scroll-cont {
+  text-align: center;
+  justify-content: center;
+  top: 1vh;
+}
+
+.scroll-cont a {
+  text-decoration: none;
+}
+
+.scroll-cont a button {
+  border: none;
+  background-color: transparent;
+}
+
+.scroll-cont a button svg {
+  color: #FAEB98;
+  font-size: 50px;
+}
+
+@media screen and (max-width: 767px) {
+  .preview-container {
+    padding-top: 5vh;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .astro-cont {
+    width: 100vh !important;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .astro-cont {
+    width: 50vh !important;
+  }
+}

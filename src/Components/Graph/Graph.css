@@ -1,0 +1,15 @@
+.graph-container-full {
+    height: 100vh;
+    background-color: #140114;
+    h1 {
+        padding-bottom: 50px;
+        font-size: 6.5vh;
+        color: #fff3f3;
+        text-shadow: -4px 2px 0px #755bb1;
+        margin-bottom: 2vh;
+    }
+}
+.graph-container{
+    margin-top: 20vh;
+
+}

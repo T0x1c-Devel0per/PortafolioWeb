@@ -1,0 +1,98 @@
+.navbar-toggler {
+    border: none !important;
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-bar {
+    margin-top: 0.5vh;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 30%;
+    z-index: 1000;
+    color: white;
+    border-radius: 30px;
+    background-color: #1f0736c9;
+    box-shadow: inset 0px 0px 20px rgba(0,0,0,1);
+}
+
+.nav-bar ul {
+    margin-top: 1.5vh;
+    list-style: none;
+    padding-left: 20px;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    font-size: 12px;
+}
+
+.nav-bar a:hover {
+    
+    color: #C2D9FF;
+}
+
+.nav-bar a:hover {
+    animation: neon 1s ease infinite alternate;
+}
+
+.nav-bar a::after {
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    bottom: -3px;
+    left: 0;
+    transition: width 0.3s ease;
+}
+
+.nav-bar a:hover::after {
+    width: 100%;
+}
+
+@keyframes neon {
+    from {
+        text-shadow: 0 0 5px #EEE2DE, 0 0 5px #EEE2DE, 0 0 10px #EEE2DE, 0 0 15px #4942E4, 0 0 20px #4942E4, 0 0 15px #4942E4, 0 0 20px #4942E4, 0 0 30px #4942E4;
+    }
+
+    to {
+        text-shadow: 0 0 5px #C2D9FF, 0 0 5px #C2D9FF, 0 0 5px #C2D9FF, 0 0 5px #C2D9FF, 0 0 5px #C2D9FF, 0 0 15px #C2D9FF, 0 0 5px #C2D9FF, 0 0 30px #C2D9FF;
+    }
+}
+
+@media only screen and (max-width: 1113px) {
+    .nav-bar  {
+        width: 40%;        
+    }
+}
+@media only screen and (max-width: 833px) {
+    .nav-bar  {
+        width: 50%;        
+    }
+}
+
+@media only screen and (max-width: 681px) {
+    .nav-bar  {
+        width: 70%;
+        
+    }
+}
+@media only screen and (max-width: 600px) {
+    .nav-bar  {
+        width: 70%;        
+    }
+}
+@media only screen and (max-width: 491px) {
+    .nav-bar  {
+        width: 90%;        
+    }
+}
